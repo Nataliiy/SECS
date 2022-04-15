@@ -1,0 +1,25 @@
+body{
+    font-size: 16px;
+}
+.all-logo{
+    display: flex;
+}
+.logo{
+    margin: auto;
+    }
+
+.logo img{
+   height: 100px;
+    }
+
+.logo-and-name{
+   
+}
+
+h1{
+    color: #34742E;
+    text-align: center;
+}
+.centr{
+    text-align: center;
+}
