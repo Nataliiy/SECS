@@ -2,6 +2,10 @@ body {
     font-size: 16px;
 }
 
+h1{
+    font-size: 24px;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -49,7 +53,7 @@ img {
 }
 
 .name-of-conferenc h1 {
-    padding: 0 20px;
+    padding: 0 10px;
     color: #34742E;
     text-align: center;
     margin: 0;
