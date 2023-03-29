@@ -60,9 +60,25 @@ img {
     font-size: 24px;
 }
 
+.cover-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.cover-container .cover-img {
+    max-width: 300px;
+}
+
 @media (max-width: 767px) {
     .name-of-conferenc {
         order: 3;
         padding-top: 10px;
+    }
+    .cover-container {
+        flex-direction: column;
+    }
+    .cover-container .cover-img {
+        max-width: 100%;
     }
 }
