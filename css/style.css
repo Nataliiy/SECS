@@ -1,3 +1,10 @@
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
 body {
     font-size: 18px;
 }
@@ -38,6 +45,14 @@ img {
 .logo {
     margin: auto;
 }
+  
+  .footer {
+    font-size: 12px;
+    margin-top: auto;
+    background-color: grey;
+    box-shadow: 0px 5px 5px 5px rgb(34 60 80 / 60%);
+    padding-top: 10px;
+  }
 
 @media (max-width: 767px) {
     .logo {
